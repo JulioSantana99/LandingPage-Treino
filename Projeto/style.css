@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2A28A5 16.62%, #050505 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+    padding: 24px;
+    border-bottom: 0.4px solid #FFF2E7;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    color: white;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 100px;
+}
+
+.JSTOKENS{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+}
+.Texto{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;  
+}
+
+.Botao{
+    background-color: white;
+    height: 50px;
+    width: 185px;
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 10;
+    border: none
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,25);
+}
+
+.Imagem{
+    height: 330px;
+}
+
+.conteudo-escrito-2{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    border-bottom: 0.4px solid #FFF2E7;
+    padding: 10px;
+}   
+
+.titulo{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.rodape{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
